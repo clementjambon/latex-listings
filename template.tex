@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage[newfloat]{minted}
+\usepackage{caption}
+
+\setminted[python]{breaklines, linenos}
+
+\newenvironment{code}{\captionsetup{type=listing}}{}
+\SetupFloatingEnvironment{listing}{name=Listing}
+
+\begin{document}
+
+% {insert_listing}
+
+\end{document}
