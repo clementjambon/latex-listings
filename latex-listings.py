@@ -104,7 +104,6 @@ if __name__ == "__main__":
 				a_exists = False
 				for child in parent.children:
 					if a == child.name:
-						parent.children.append(child)
 						parent = child
 						a_exists = True
 						break
